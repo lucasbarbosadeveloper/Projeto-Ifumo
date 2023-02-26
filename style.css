@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'ifumo';
+    src: url('font/TakenBlackItalic.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+/*container 1*/
+.containertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 10px 0px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo p{
+    color: green;
+    font-family: 'ifumo';
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.buttontop{
+    padding-right: 30px;
+}
+
+.buttontop button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.buttontop button:hover{
+    background-color: lightgreen;
+    color: green;
+    transition: 0.5s;
+}
+
+/*Container 2*/
+.containerbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerbottom h1{
+    font-size: 1em;
+    text-align: center;
+}
+
+.containerbottom p{
+    text-align: center;
+    font-size: 0.9em;
+    padding: 15px 0px;
+    color: gray;
+}
+
+.containerbottom input{
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.containerbottom button{
+    width: 90%;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.containerbottom button:hover{
+    background-color: lightgreen;
+    color: green;
+    transition: 0.5s;
+}
+
+/*cards grandes*/
+.bigcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bigcards .cards1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 20px;
+    width: 170px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardleft{
+    background-color: green;
+}
+
+.cardright{
+    background-color: lightgreen;
+}
+
+.cards1 h2{
+    color: white;
+    font-size: 1.1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.699);
+    margin-top: 15px;
+}
+
+.cards1 img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cards1 button{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.cards1 button:hover{
+    background-color: gray;
+    color: lightgreen;
+    transition: 0.5s;
+}
+
+.cardleft button{
+    background-color: rgb(0, 153, 0);
+}
+
+.cardright button{
+    background-color: rgb(120, 201, 120);
+}
+
+/*cards pequenos*/
+.smallcards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.smallcards img{
+    width: 90px;
+    border-radius: 20px;
+}
+
+.cards2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards2 p{
+    margin: 10px;
+    text-align: center;
+}
+
+.cards2 p:hover{
+    background-color: rgb(203, 255, 203);
+    color: green;
+}
+
+.cards2 spam{
+    color: red;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer strong{
+    text-decoration: underline;
+}
